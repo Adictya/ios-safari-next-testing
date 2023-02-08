@@ -6,11 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "cp ./node_modules/@appbuilder/react/*.png ./public"
   },
   "dependencies": {
     "@apollo/client": "^3.7.7",
-    "@appbuilder/react": "file:appbuilder-lmc.tgz",
+    "@appbuilder/react": "file:appbuilder-virtual.tgz",
     "@next/font": "13.1.6",
     "next": "13.1.6",
     "react": "18.2.0",
